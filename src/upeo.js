@@ -2,6 +2,16 @@ import React from 'react';
 import "./upeo.css"
 import pic from "./lad.png";
 import logo from "./upeologo.png";
+import person from "./nakayiza.png";
+import pers from "./nalenyi.png";
+import perso from "./faith.png";
+import persoo from "./chiri.png";
+import persoon from "./respa.png";
+
+
+
+
+
 import ussd from "./ussd.png";
 
 const Navbar=()=>{
@@ -54,7 +64,29 @@ const Navbar=()=>{
   <br></br>such as mathematics. </h6>
 
   <h5>Team</h5>
+<div className='person'>
+    <img src={person} alt='./nakayiza.png'/>
 
+  </div>
+
+  <div className='person1'>
+    <img src={pers} alt='./nalenyi.png'/>
+
+  </div>
+  
+
+  <div className='person2'>
+    <img src={perso} alt='./faith.png'/>
+
+  </div>
+  <div className='person3'>
+    <img src={persoo} alt='./chiri.png'/>
+
+  </div>
+  <div className='person4'>
+    <img src={persoon} alt='./respa.png'/>
+
+  </div>
 
 </ul>
 
