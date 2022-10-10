@@ -1,14 +1,21 @@
-*{
-    background-color:white;
-}
+ body{
+  width:100%;
+  text-align: center;
+  overflow-x: hidden;
+} 
+
 .topnav a {
     float: left;
-    color: blue;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    margin-left: 60px;
+    margin-left: 80px;
+    background: blue;
+    margin: 10px;
+
+    
   }
   .topnav a:hover {
     background-color: #ddd;
@@ -17,32 +24,46 @@
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+  
   }
-  .image{
-     margin-left: 150px;
+  .topnav a{
+    margin-left: 150px;
+    
+  }
+  .image img{
+     margin-left: 20px;
+     width: 1000px;
+     height: 500px;
      
 
-  }
-  h2{
-    color: blue;
-    margin-left: 60px;
-  }
-  p{
-    background-color: #04AA6D;
+  } 
+   h2{
+    color: blue; 
+    margin-left: 250px; 
+    border-radius: 30px;
+}  
+   p{
+    background-color:green;
+    margin-top: -8px; 
     width: 550px;
     height: 250px;
-    margin-left: 70px;
-  }
+    margin-left: 470px;
+
+    
+   }  
   h3{
-    margin-left: 60px;
+    margin-left: 400px;
     color: blue;
+    font-size:30px;
+    margin-bottom: -80px;
   }
  h6{
-  margin-top: -120px;
-  margin-left: 350px;
+  margin-top: -190px;
+  margin-left: 450px;
+  font-size: 18px;
   
   
- }
+ } */
  .logo{
   margin-left: 950px;
  }
@@ -51,23 +72,322 @@
   color: blue;
   font-size: 18px;
   margin-bottom: 90px;
- }
- ussd{
+ } 
+ .ussd{
   width: 400px;
+margin-left: 50px;
+
  }
- .person1{
-margin-left: 240px;
-margin-top: -200px;
- }
- .person2{
-  margin-left: 490px;
-  margin-top: -200px;
-   }
-   .person3{
-    margin-left: 730px;
-    margin-top: -210px;
-     }
-     .person4{
-      margin-left: 990px;
-      margin-top: -210px;
-       }
+
+h1{
+  margin-left: 430px;
+  color: blue;
+}
+
+.images{
+  width: 400px;
+
+ } 
+
+.upe{
+  margin-top: -270px;
+  margin-left: -710px;
+} 
+/* contact us */
+.designs{
+  margin-top: 100px;
+  width: 1300px;
+  height: 400px;
+}
+.forms{
+  margin-right: 700px;
+  margin-top: -1%;
+}
+.contacts h1{
+  margin-top: -29%;
+  margin-right: 700px;
+}
+#name{
+  border-radius: 20px;
+  padding: 10px 20px 10px 40px;
+  box-shadow: 5px 5px 5px 5px #dbd9d9;
+  border: none;
+}
+#email{
+  border-radius: 20px;
+  padding: 10px 20px 10px 40px;
+  box-shadow: 5px 5px 5px 5px #dbd9d9;
+  border: none;
+}
+#phoneNumbers{
+  border-radius: 20px;
+  padding: 10px 20px 10px 40px;
+  box-shadow: 5px 5px 5px 5px #d6d5d5;
+  border: none;
+}
+#Question{
+  border-radius: 20px;
+  padding: 10px 20px 80px 40px;
+  box-shadow: 5px 5px 5px 5px #d3d1d1;
+  border: none;
+}
+.send{
+  background-color: green;
+  border-radius: 20px;
+  padding-left:35px;
+  padding-top: 3px;
+  padding-right: 35px;
+  padding-bottom:3px ;
+  margin-left: 200px;
+}
+
+
+/* FOOTER */
+.footer{
+  background: green;
+  height: 250px;
+  width: 1610px;
+  margin-top: -13%;
+ 
+}
+.location{
+  margin-left: 500px;
+  margin-top: -6%;
+  color: white;
+}
+.location h3 {
+  text-decoration: underline;
+}
+.contacts_footer{
+  margin-right: 1200px;
+  margin-top: 150px;
+  color: white;
+}
+.contacts_footer h3{
+  text-decoration: underline;
+}.NavbarItems{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.logo{
+  margin-top: 60px;
+  width: 170px;
+ 
+}
+.Navbar_logo{
+  color: rgb(0, 66, 128);
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+
+.nav-menu{
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+
+}
+.nav-links{
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.nav-links-mobile{
+  text-decoration: none;
+  color: green;
+
+}
+.nav-links:hover{
+  background-color: green;
+  border-radius: 4px;
+  transition: all 0.2s ease-out ;
+}
+
+.about{
+  margin-right: 800px;
+  margin-top: -28%;
+}
+.about h1{
+  color: green;
+}
+button{
+  background-color: green;
+  border-radius: 15px;
+  color: white;
+  margin-right: 850px;
+  margin-top: 60px;
+  padding-left:15px;
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom:8px ;
+  border: none;
+}
+
+.cardone{
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  
+}
+.cardtwo{
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  border-radius: 20px;
+  
+}
+.cardthree{
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #eceaea;
+
+
+  border-radius: 20px;
+}.cardfour{
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #f7f4f4;
+  border-radius: 20px;
+}
+
+.btn{
+  background-color:green;
+  padding-left:35px;
+  padding-top: 3px;
+  padding-right: 35px;
+  padding-bottom:3px ;
+  margin-left: 50px;
+
+}
+.btn2{
+  background-color:green;
+  padding-left:35px;
+  padding-top: 3px;
+  padding-right: 35px;
+  padding-bottom:3px ;
+  margin-left: 50px;
+
+}.btn3{
+  background-color:green;
+  padding-left:35px;
+  padding-top: 3px;
+  padding-right: 35px;
+  padding-bottom:3px ;
+  margin-left: 50px;
+
+}.btn4{
+  background-color:green;
+  padding-left:35px;
+  padding-top: 3px;
+  padding-right: 35px;
+  padding-bottom:3px ;
+  margin-left: 50px;
+
+}
+.cards{
+  display: flex;
+  align-items: center;
+  grid-gap: 30px;
+  margin-left: 30px;
+}
+.services{
+  margin-top: 120px;
+  margin-right: 800px;
+}
+
+.techno{
+ margin-left: 300px;
+ margin-top: 200px;
+ color: white;
+}
+
+.technology{
+  background: green;
+  height: 250px;
+  width: 1110px;
+  margin-left: 100px;
+  border-radius: 20px;
+  margin-top: -10%;
+}
+.technlogy{
+  border-radius: 20px;
+  margin-right: 700px;
+  margin-top: -9%;
+  width: 280px;
+  height: 200px;
+
+}
+.steps{
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px #dbd9d9;
+
+}
+.step2{
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 15px #dbd9d9;
+
+}
+
+.step3{
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px #dbd9d9;
+
+}
+.step4{
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9 ;
+
+}
+/* contact us */
+.designs{
+  margin-top: 100px;
+  width: 1300px;
+  height: 400px;
+}
+.forms{
+  margin-right: 700px;
+  margin-top: -1%;
+}
+.contacts h1{
+  margin-top: -29%;
+  margin-right: 700px;
+}
+.location{
+  margin-left: -1700px;
+  margin-bottom: -200px;
+
+}
